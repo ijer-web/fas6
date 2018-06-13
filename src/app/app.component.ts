@@ -12,7 +12,7 @@ export class AppComponent implements OnInit {
   title = 'app';
 
   myControl: FormControl = new FormControl();
-  options = ['One', 'Two', 'Three'];
+  options = ['One', 'Two', 'Three', 'First', 'Second', 'Other'];
   filteredOptions: Observable<string[]>;
 
   ngOnInit() {
